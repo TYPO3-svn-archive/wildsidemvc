@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : configuration.xml
+    Created on : October 1, 2008, 4:40 PM
+    Author     : claus
+    Description:
+        Purpose of the document follows.
+-->
+<wildsidemvc-configuration>
+    <models>
+	<basemodel>
+	    <extensionkey>wildsidemvc</extensionkey>
+	    <filename>tx_wildsidemvc_basemodel.php</filename>
+	    <classname>tx_wildsidemvc_basemodel</classname>
+	</basemodel>
+	<model>
+	    <name></name>
+	    <extensionkey></extensionkey>
+	    <filename></filename>
+	    <classname></classname>
+	    <usebasecontroller>false</usebasecontroller>
+	    <tablename></tablename>
+	    <namefield></namefield>
+	    <relations>
+		<relation methodname="" modelname="" relationtype=""></relation>
+	    </relations>
+	</model>
+    </models>
+    <controllers>
+	<controller>
+	    <name></name>
+	    <filename></filename>
+	    <classname></classname>
+	</controller>
+    </controllers>
+    <helpers>
+	<helper>
+	    <name></name>
+	    <filename></filename>
+	    <classname></classname>
+	</helper>
+    </helpers>
+</wildsidemvc-configuration>
